@@ -1,5 +1,5 @@
 import GreenDate from "./GreenDate";
-import Card from "./Card";
+import Card from "../UI/Card";
 import "./GreenItem.css";
 
 function GreenItem(props) {
