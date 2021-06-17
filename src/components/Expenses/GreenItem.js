@@ -6,6 +6,7 @@ import "./GreenItem.css";
 
 const GreenItem = (props) => {
 	const [title, setTitle] = useState(props.title);
+	console.log("expense item evaluated by react");
 
 	const clickHandler = () => {
 		setTitle("Updated");
